@@ -5,6 +5,8 @@ app = flask.Flask(__name__)
 app.config["DEBUG"] = True
 CORS(app)
 
+# Server get and post methods
+
 command = "0"
 k = "0"
 
