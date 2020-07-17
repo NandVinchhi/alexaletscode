@@ -10,6 +10,8 @@ from convert import get_python_code
 import speech_recognition as sr 
 import pyttsx3  
 
+# Speech recognizer
+
 r = sr.Recognizer()  
 def SpeakText(command): 
     engine = pyttsx3.init() 
